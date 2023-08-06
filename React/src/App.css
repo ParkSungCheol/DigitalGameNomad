@@ -1,0 +1,433 @@
+.page-null {
+  height: 100vw;
+  text-align: center;
+}
+
+.page-null img {
+  width: 500px;
+}
+
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.HomeMenu {
+  margin: 0 auto;
+  padding: 0;
+  width: 100%;
+  
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-transform:uppercase;
+  background-color: rgb(22, 21, 22) ;
+  font-weight: 550;
+}
+
+
+.navbar a{
+  margin-left: 5px;
+  margin-right: 5px;
+  color: #B7B7B7;
+}
+
+.navbar-menu {
+  display: flex;
+  list-style: none;
+  padding-left: 0;
+  font-size: large;
+  font-family: "NotoSansCJKkrMedium"; 
+  margin-left: 110px;
+  
+}
+
+.navbar-menu li{
+  padding: 8px 12px;
+
+}
+
+.navbar-menu a:hover {
+  color: #fbfbfb;
+}
+
+
+.navbar-links {
+  display: flex;
+  list-style: none;
+  padding-left: 0;
+  font-size: medium;
+  padding-right: 1em;
+  font-family: "NotoSansCJKkrBlack"; 
+
+}
+
+.navbar-links li {
+  padding: 5px;
+  color: #B7B7B7;
+  font-family: "NotoSansCJKkrMedium"; 
+}
+
+.navbar-links a:hover {
+  color: #fbfbfb;
+}
+
+.navbar-links li:hover {
+  color: #fbfbfb;
+}
+
+.toogle-logo {
+  display: none;
+  vertical-align: middle;
+  max-height: 40px;
+  padding-top: 5px; 
+  padding-right: 3px;
+  font-size: 25px;
+
+}
+
+.App-logo1 {
+  vertical-align: middle;
+    max-height: 70px; 
+    padding-left: 15px;
+}
+
+
+  @media screen and (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items:stretch;
+    padding: 8px;
+    text-align: center;
+  }
+
+  .navbar-menu {
+    display: none; 
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .nevbar-menu li {
+    width: 100%;
+    text-align: center;
+  }
+  
+  .navbar-links {
+    display: none; 
+    justify-content: center;
+    width: 100%;
+  }
+
+  .navbar-links li {
+    display: inline-block;
+  }
+
+  .refresh {
+    border: 0;
+    font-size: large;
+    background-color: #F3ECE4;
+    border-radius: 1000px;
+  }
+
+  .navbar-logo {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .toogle-logo {
+    display: inline-block;
+  }
+
+  .App-logo1 {
+      width: 50px; 
+      padding: 0;
+
+
+  }
+
+ .navbar-menu.active,
+  .navbar-links.active {
+    display: flex;
+  } 
+
+  .Homes {
+    display: none;
+  }
+  .HomeMenu {
+    height: 100vw;
+  }
+}     
+
+.Homes {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  bottom: 2%;
+  right: 2%;
+}
+
+
+.App-logo2 {
+  vertical-align: middle ;
+    max-height: 70px; 
+    padding-left: 2em;
+}
+
+.foot {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #161516;
+  margin: 0 auto;
+  width: 100%;
+  height: 130px; /* footer의 높이 */
+  font-weight: 550;
+  z-index: 1;
+}
+
+.foot a {
+  color: #B7B7B7;
+}
+
+
+.foot-div1{
+  float: left;
+
+}
+
+.foot-div1 a {
+  font-family: "NotoSansCJKkrMedium"; 
+  color: #faf9fa;
+  font-size: small;
+}
+
+
+.foot-div2 {
+  display: flex;
+  list-style: none;
+  padding-left: 0;
+  font-family: "NotoSansCJKkrMedium"; 
+  font-size: small;
+}
+
+.foot-div2-1 {
+  display: table-cell;
+  vertical-align: middle;
+  padding-right: 3em;
+  margin-left: 100px;
+}
+
+.foot-div2-2 {
+  padding-left: 3em;
+}
+
+.foot-div2 li {
+  padding: 8px 12px;
+}
+
+
+.icon-logo {
+  vertical-align: middle;
+  max-height: 50px; 
+}
+
+.foot-div3 {
+  list-style: none;
+  display: flex;
+  padding: 8px 2em 12px 0;
+  display: inline-block;
+  font-size: small;
+  margin-right: 100px;
+}
+
+.foot-div3 img {
+  cursor: pointer;
+}
+
+.foot-div3 li {
+  padding: 8px 12px;
+  display: inline-block;
+  color: #f7f7f7;
+  font-family: "NotoSansCJKkrMedium"; 
+}
+
+.foot-div3-1 {
+  display: inline-block;
+}
+
+.foot-div3-1-button {
+  border: 0;
+  background-color: #161516;
+}
+
+.foot-div3-2 {
+text-align: center;
+
+}
+
+  
+@media screen and (max-width: 768px) {
+  .foot {
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    height: 50vw;
+    padding-bottom: 8%;
+    display: block;
+  }
+
+  .foot-div1{
+    flex-direction: column;
+    text-align: center;
+    margin-top: 15px;
+    display: none;
+  }
+
+  .foot-div2 {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+    padding: 0;
+    display: inline-block;
+  }
+
+  .foot-div2 li{
+    font-size: 13px;
+    display: inline-block;
+  }
+
+  .foot-div2-1 {
+    margin: 0 auto;
+    margin-top: 10px;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+    padding: 0;
+    display: inline-block;
+  }
+  .foot-div2-2 {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 0;
+    text-align: center;
+  }
+
+  .foot-div3 {
+    width: 100%;
+    margin: 0 auto;
+   text-align: center;
+   padding: 0;
+   padding-top: 10px;
+   padding-bottom: 10px;
+  }
+
+
+  .nevbar-menu li {
+    width: 100%;
+    text-align: center;
+  }
+  
+  .navbar-links {
+    justify-content: center;
+    width: 100%;
+  }
+
+  
+}       
+@media screen and (min-width:768px) and (max-width:980px) {
+  .navbar a {
+    font-size: 12px;
+  }
+
+  .foot-div3-1 {
+    width: 200px;
+  }
+
+  .foot-div1 a {
+    display: none;
+  }
+}
+
+
+
+.refresh {
+  border: 0;
+  font-size: large;
+  background-color: #F3ECE4;
+  border-radius: 1000px;
+}
+
+
+
+
+@font-face {
+  font-family: "NotoSansCJKkrBlack";       
+  src: url("./font/NotoSansCJKkrBlack.ttf"); 
+}
+
+@font-face {
+  font-family: "NotoSansCJKkrBold";         
+  src: url("./font/NotoSansCJKkrBold.ttf"); 
+}
+
+@font-face {
+  font-family: "NotoSansCJKkrMedium";         
+  src: url("./font/NotoSansCJKkrMedium.ttf"); 
+}
+
+@font-face {
+  font-family: "NotoSansCJKkrRegular";         
+  src: url("./font/NotoSansCJKkrRegular.ttf"); 
+}
+
+@font-face {
+  font-family: "NotoSansCJKkrThin";         
+  src: url("./font/NotoSansCJKkrThin.ttf"); 
+}
+
+
+
+
+@font-face {
+  font-family: "CookieRunBlack";         
+  src: url("./font/CookieRunBlack.ttf"); 
+}
+
+@font-face {
+  font-family: "CookieRunBold";         
+  src: url("./font/CookieRunBold.ttf"); 
+}
+
+@font-face {
+  font-family: "CookieRunRegular";         
+  src: url("./font/CookieRunRegular.ttf"); 
+}
+
+@font-face {
+  font-family: "NotoSansCJKkrDemiLite";         
+  src: url("./font/NotoSansCJKkrDemiLite.ttf"); 
+}
+
+
+
+
+
+
+@font-face {
+  font-family: "CookieRunRegular";         
+  src: url("./font/CookieRunRegular.ttf"); 
+}
+

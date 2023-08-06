@@ -1,0 +1,114 @@
+.marketing {
+    background-color: #f7f7f7;
+    padding: 20px 0;
+    min-height: 100vh;
+    padding-top: 110px;
+}
+.mark__h1 {
+    border-top: 3px black solid ;
+    margin-top: 10px;
+    margin-bottom: 0;
+    padding: 10px 50px;
+    padding-bottom: 0;
+    font-size: 30px;
+}
+.mark__s {
+    margin-left: 70px;
+    font-weight: bold;
+    padding-bottom: 20px;
+    font-size: 18px;
+}
+.mark__div1 {
+    padding: 50px 20px;
+    padding-bottom: 30px;
+}
+.mark__ul1 {
+    display: flex;
+    justify-content: space-around;
+    padding-right: 40px;
+}
+.mark__li {
+    font-size: 16px;
+}
+.mark__img {
+    background-image: #f5f2ed;
+    color: #f5f2ed;
+    margin-right: 10px;
+}
+.mark__lis {
+    font-size: 18px;
+}
+.mark__div2 {
+    padding: 20px;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    margin-bottom: 70px;
+}
+.mark__ul2 {
+    display: flex;
+    justify-content: space-around;
+    padding-right: 40px;
+}
+.mark__line {
+    border-top: 3px black solid ;
+    margin-bottom: 10px;
+}
+.mark__div3 {
+   padding: 10px;
+   padding-bottom: 50px;
+   margin-bottom: 50px;
+}
+.mark__ul3 {
+    display: flex;
+    justify-content: space-around;
+    padding: 0 60px;
+}
+.mark__p {
+    font-size: 18px;
+}
+.mark__p1 {
+    margin: 0;
+    padding: 5px 10px;
+}
+
+@media screen and (max-width: 768px) {
+    .marketing {
+        padding: 0;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .mark__h1 {
+        text-align: center;
+    }
+
+    .mark__s {
+        margin: 0 auto;
+        display: block;
+        padding-top: 20px;
+        text-align: center;
+    }
+
+    .mark__ul1 {
+        display: block;
+
+
+    }
+    
+    .mark__ul2 {
+        display: block;
+    }
+
+    .marketing {
+        display: block;
+    }
+    .mark__ul3 {
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .mark__img {
+        margin-top: 50px;
+    }
+
+}

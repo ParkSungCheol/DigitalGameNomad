@@ -1,0 +1,203 @@
+.master {
+    background-color: #f7f7f7;
+    text-align: center;
+    min-height: 100vh;
+}
+
+.master-header{
+    display: inline-block;
+    font-size: xx-large;
+    background-color: #f7f7f7;
+    
+}
+
+.master-nav {
+    background-color: white;
+    border: 1px solid black;
+    display: block;
+    text-align: justify;
+    align-items: center;
+    width: 500px;
+    margin: 0 auto;
+    border-radius: 8px;
+    border: 0;
+    padding: 1em 0 1em 0;
+    font-size: large;
+    font-weight: 600;
+}
+
+.master-file {
+    background-color: #f7f7f7;
+    width: 400px;
+    padding-left: 2px;
+    padding-bottom: 3px;
+}
+
+.master-button-nav {
+    text-align: center;
+}
+
+.master-button {
+    text-align: center;
+    margin: 0 15px 5px 15px;
+    border-radius: 8px;
+    border: 0;
+    background-color: #161516;
+    width: 100px;
+    height: 40px;
+    font-size: large;
+    font-family: "NotoSansCJKkrMedium"; 
+}
+
+.master-button a{
+    color: white;
+}
+
+.master-button:hover {
+    font-weight:600;
+}
+
+#apply-img {
+    margin: auto;
+    width: 420px;
+    height: 400px;
+}
+/*
+#apply-player {
+    width: 420px;
+    height: 400px;
+}
+*/
+#master-button1 {
+    background-color: green;
+    font-family: "NotoSansCJKkrRegular"; 
+    cursor: pointer;
+}
+
+.master-button a:hover {
+    font-weight: 600;
+
+}
+
+#master-button2 {
+    background-color: #a52a2a;
+    font-family: "NotoSansCJKkrRegular"; 
+    color: white;
+    
+}
+
+#master-button2:hover {
+    font-weight: 600;
+    cursor: pointer;
+}
+
+#master-button3 {
+    font-family: "NotoSansCJKkrRegular"; 
+}
+
+#master-button3:hover {
+    font-weight: 600;
+    cursor: pointer;
+}
+/* 
+#apply-urls {
+    width : 255px;
+    margin-top: 10px;
+    border-radius: 8px;
+}
+*/
+.apply-refuse-text {
+    text-align: center;
+    font-family: "NotoSansCJKkrMedium"; 
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.refuse-reason {
+    text-align: center;
+    margin: 0 auto;
+    padding: 0;
+    background-color: #161516;
+    color: white;
+    margin-top: 10px;
+    width: 414px;
+    margin-right: 60px;
+    border-radius: 8px ;
+    margin-top: 50px;
+    font-family: "NotoSansCJKkrRegular"; 
+    font-size: 20px;
+}
+
+.refuse-text {
+    background-color: white;
+    color: black;
+    border-radius: 0 0 8px 8px;
+    border: 1px solid#161516;
+    width: 412px;
+    margin-bottom: 50px;
+    font-family: "NotoSansCJKkrRegular"; 
+    font-size: 17px;
+
+}
+.wrapper {
+    margin-top: 20px;
+}
+
+.apply-box-name2 {
+    margin-right: 13px;
+    width: 250px;
+    height: 30px;
+    border-radius: 8px;
+    border-color: #f7f7f7;
+}
+@media screen and (max-width: 768px) {
+    .master-nav {
+        width: 350px;
+    }
+
+    .master-nav li{
+        width: 250px;
+    }
+
+    .master-button {
+        width: 80px;
+    }
+
+    #apply-img {
+        margin: auto;
+    width: 270px;
+    height: 230px;
+    }
+    .wrapper #apply-player {
+        width: 270px;
+        height: 230px;
+    }
+    .apply-player {
+        width: 270px;
+        height: 230px;
+    }
+
+    .master-button {
+        width: 100px;
+    }
+
+    #master-button1 {
+        width: 80px;
+    }
+
+    #master-button2 {
+        width: 80px;
+    }
+
+    #master-button3 {
+        width: 80px;
+    }
+
+    .refuse-reason {
+        width: 270px;
+    }
+
+    .refuse-text {
+        width: 268px;
+    }
+}

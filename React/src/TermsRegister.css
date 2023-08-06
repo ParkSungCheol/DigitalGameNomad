@@ -1,0 +1,156 @@
+.terms {
+    background-color: #161516;
+    align-items: center;
+    margin: 0 auto;
+    font-family: "NotoSansCJKkrRegular";  
+    min-height: 100vh;   
+}
+
+.terms-background {
+    background-color: white;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 8px;
+    width: 850px;
+    padding-bottom: 40px;
+}
+
+.join-box {
+    margin: 0 auto;
+    background-color: white;
+    text-align: center;
+    width: 800px;
+    padding: 0 2px 0 0;
+    
+    
+
+}
+
+.clearfix {
+    background-color: white;
+    font-size: x-large;
+    font-weight: 700;
+    text-align: left;
+    padding: 10px;
+    padding-top: 2em;
+    
+}
+
+.terms-nav{
+    text-align: center;
+    font-size: xxx-large;
+    padding-top: 40px;
+    font-family: "NotoSansCJKkrBlack"; 
+    margin: 0 auto;
+    padding-bottom: 50px;   
+    color: white;
+}
+
+.terms-box {
+    background-color: #f7f7f7;
+    width: 692px;
+    height: 184px;
+    font-size: 15px;
+    border: 0;
+    outline: 0;
+    font-family: "NotoSansCJKkrRegular";  
+}
+
+.checkBox-check1 {
+    text-align: center;
+}
+
+
+.terms-button {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    padding: 2em;
+}
+
+.terms-button1 {
+    display: inline-block;
+    padding: 0;
+    background-color: #a52a2a;
+    line-height: 2.5em;
+    border-radius: 6px;
+    font-size: large;
+    height: 46.4px;
+    width: 300px;
+    margin-right: 1em;
+    border: 0;
+}
+
+.terms-button1 a {
+    color: white;
+    font-family: "NotoSansCJKkrRegular";  
+}
+
+.terms-button1 a:hover {
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.terms-button1-2 {
+    color: white;
+    border-radius: 6px;
+    margin-left: 1em;
+    font-size: large;
+    padding: 0;
+    border: 0;
+    height: 46.4px;
+    font-family: "NotoSansCJKkrRegular";  
+    width: 300px;      
+}
+
+.terms-button1-2:hover {
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.terms-button2 {
+    display: inline-block;
+    padding-left: 2em;
+}
+
+.terms-button2-1 {
+    background-color: #5e5e5e;
+    color: white;
+    line-height: 2.5em;
+    border-radius: 6px;
+    margin: 0;
+    font-size: large;
+    padding: 10px 100px;
+}
+@media screen and (max-width: 768px) {
+    .terms-background {
+        width: 400px;
+    }
+
+    .join-box {
+        width: 400px;
+    }
+
+    .clearfix {
+        width: 300px;
+        margin: 0 auto;
+    }
+    .clearfix li {
+        font-size: 15px;
+    }
+
+    .checkAllBtn {
+        width: 15px;
+        height: 15px;
+        margin: 0 0 0 10px;
+    }
+
+    .terms-box {
+        width: 300px;
+        height: 150px;
+        font-size: 10px;
+    }
+
+
+
+}

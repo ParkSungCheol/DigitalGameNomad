@@ -1,0 +1,9 @@
+.textC {
+    animation: blink-effect 1s step-end infinite;
+}
+
+@keyframes blink-effect {
+    50% {
+        opacity: 0.7;
+    }
+}

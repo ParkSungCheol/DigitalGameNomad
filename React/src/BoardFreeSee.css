@@ -1,0 +1,474 @@
+.see-all {
+    min-height: 100vh;
+}
+
+.see-title {
+    text-align: center;
+    font-size: xxx-large;
+    
+    
+}
+
+.see-title-hr {
+    width: 935;
+    margin: 0 20% 0 20%;
+}
+
+
+
+.see-main {
+    text-align: center;
+    
+    
+}
+.main-title1 {
+    text-align: justify;
+    font-size: x-large;
+    font-weight: 700;
+    font-family: "NotoSansCJKkrRegular"; 
+    width: 888px;
+    margin: 0 auto;   
+    padding-top: 10px; 
+}
+
+.main-title2 {
+    text-align: justify;
+    font-size: x-large;
+    color: #a52a2a;
+    font-family: "NotoSansCJKkrMedium";   
+    width: 867px;  
+    margin: 0 auto;  
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.see-frame {
+    display: flex;
+    background-color: #161516;
+    color: white;
+    width: 915px;
+    padding-top: 10px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    margin: 0 auto;
+    justify-content: space-between;
+    
+}
+
+#reply1 {
+    display: inline-block;
+    padding: 0 20px 0 0;
+    text-align: center;
+    width: 915px;
+    margin-left: 25px;
+}
+
+.main-user {
+    float: left;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.main-date {
+    display: inline-block;
+    margin-bottom: 1em;
+    margin-right: 3%;
+    margin-left: 3%;
+}
+
+.main-contents {
+    text-align: center;
+}
+
+.main-picture {
+
+    display: inline-block;
+    text-align: center;
+    margin: 0 auto;
+
+}
+
+.main-picture img {
+
+    width: 880px;
+    height: 600px;
+    
+    }
+
+.main-text {
+    text-align: justify;
+    width: 800px;
+    margin: 0 auto;
+    margin-top: 5em;
+    margin-bottom: 2em;
+    font-family: "NotoSansCJKkrMedium";   
+    
+}
+
+.comment {
+    text-align: justify;
+}
+
+.comment1 {
+    justify-content: center;
+    margin: 2em;
+}
+.b__commentbox {
+    display: grid
+}
+
+
+.comment-button {
+    background-color: white;
+    outline: 0;
+    border: 0;
+}
+
+
+.comment2 {
+    justify-content: center;
+    margin: 2em;
+}
+
+.input-nav {
+    text-align: center;
+}
+
+.see-input {
+    height: 100px;
+    width: 500px;
+    border-radius: 4px;
+    margin: 1em 1em 1em 0;
+}
+
+.see-input-button {
+    height: 100px;
+    width: 130px;
+    border: 0;
+    border-radius: 4px;
+    font-weight: 600;
+    margin: 1em 0 1em 1em;
+}
+
+.button-nav {
+    text-align: center;
+}
+
+.see-button {
+    margin: 2em;
+    background-color: dimgrey;
+    color: white; 
+    outline: 0;
+    border: 0;
+    border-radius: 8px;
+    height: 40px;
+    width: 100px;
+    font-size: large;
+    font-family: "NotoSansCJKkrRegular";     
+}
+
+#see-button1 {
+    background-color: green;
+    color: white;
+    border-radius: 8px;
+    border: 0;
+    font-family: "NotoSansCJKkrMedium"; 
+}
+
+#see-button1:hover {
+    color: white;
+    font-weight: 600;
+    font-family: "NotoSansCJKkrMedium"; 
+    cursor: pointer;
+}
+
+#see-button2 {
+    background-color: #161516;
+    color: white;
+    border-radius: 8px;
+    border: 0;
+    
+    font-family: "NotoSansCJKkrMedium"; 
+}
+
+#see-button2:hover {
+    color: white;
+    font-weight: 600;
+    font-family: "NotoSansCJKkrMedium";  
+    font-weight: 600;
+    cursor: pointer;
+}
+
+#see-button3 {
+    background-color: #a52a2a;
+    color: white;
+    border-radius: 8px;
+    border: 0;
+    
+    font-family: "NotoSansCJKkrMedium"; 
+}
+
+#see-button3:hover {
+    color: white;
+    font-family: "NotoSansCJKkrMedium"; 
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.cf1{
+    display: inline;
+}
+#cf{
+    display: inline;
+}
+.ch2{
+    background-color: #161516;
+    color: white;
+    border-radius: 8px;
+    padding: 5px 20px 5px 20px;
+}
+#replytextarea {
+    width: 750px;
+    height: 100px;
+    margin: 20px 0 20px 10px;
+    float: left;
+}
+#replybutton{
+    display: inline;
+    align-items: center;
+    width: 100px;
+    height: 106px;
+    margin-top: 20px;
+    background-color: #161516;
+    border-radius: 8px;
+    border: 0;
+    padding: 0;
+    color: white;
+    font-family: "NotoSansCJKkrMedium"; 
+    margin-bottom: 20px;
+}
+
+#replybutton:hover {
+    font-family: "NotoSansCJKkrMedium"; 
+    color: white ;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.cline {
+    border-bottom: 1px solid black ;
+    margin-top: 50px;
+}
+#comment {
+    display: inline-block;
+    text-align: center;
+    margin: 0 auto;
+}
+.metadata {
+    float: right;
+}
+.text {
+    padding-top: 10px;
+    display: inline-block;
+    width: 500px;
+    margin-left: 15px;
+    margin-bottom: 10px;
+}
+
+
+.bcommentbox {
+    display: grid
+}
+.midify_reply {
+    font-family: "NotoSansCJKkrRegular";   
+    display: inline-block;
+    background-color: green;
+    color: white;
+    border-radius: 8px;
+    border: 0;
+    width: 50px;
+    height: 40px;
+    font-size: medium;
+    margin: 5px;
+    margin-left: 10px;
+}
+
+.midify_reply:hover {
+    font-weight: 600;
+    color: white;
+    cursor: pointer;
+}
+.delete_reply {
+    display: inline-block;
+    font-family: "NotoSansCJKkrRegular";      
+    background-color: #a52a2a;
+    color: white;
+    border-radius: 8px;
+    border: 0;
+    width: 50px;
+    height: 40px;
+    font-size: medium;
+    margin: 5px;
+}
+
+.delete_reply:hover {
+    font-weight: 600;
+    color: white;
+    cursor: pointer;
+}
+
+.check_reply {
+    font-family: "NotoSansCJKkrRegular";  
+    display: inline-block;
+    background-color: green;
+    color: white;
+    border-radius: 8px;
+    border: 0;
+    width: 50px;
+    height: 40px;
+    font-size: medium;
+    margin: 5px;
+
+}
+
+.check_reply:hover {
+    color: white;
+    font-family: "NotoSansCJKkrRegular";  
+    font-weight: 600;
+    cursor: pointer;
+}
+.author {
+    font-weight: 600;
+    padding-top: 50px;
+    display: block;
+    margin-left: 10px;
+}
+
+.input {
+    display: inline-block;
+    width: 400px;
+    height: 20px;
+    border-color: #e2e2e2;
+    border-radius: 4px;
+    font-weight: normal;
+    margin: 10px;
+}
+
+@media screen and (max-width: 768px) {
+    .main-user  {
+        width: 300px;
+        font-size: 13px;
+        display: block;
+        margin-bottom: 15px;
+    }
+
+    .main-date {
+    font-size: 10px;
+    margin-left: 20px;
+    display: block;
+    color: black;
+    margin-left: 210px;
+    }
+
+    .see-frame {
+     width: 300px;
+     height: 30px;
+     display: block;
+        
+        
+    }
+
+    .main-title1 {
+        width: 360px;
+        text-align: center;
+        margin-top: 10px;
+     }
+
+     .main-title2 {
+        width: 360px;
+        text-align: center;
+        padding-bottom: 15px;
+        margin-top: 15px;
+        font-size: 16px;
+        margin-bottom: 15px;
+     }
+
+    .main-picture img {
+        width: 300px;
+        height: 200px;       
+    }
+
+    .main-text {
+        width: 300px;
+        text-align: center;
+        font-size: 11px;
+    }
+
+    #reply1 {
+        width: 300px;
+        font-size: 12px;
+    }
+    #replytextarea {
+        width: 200px;
+        height: 70px;
+        text-align: center;
+    }
+    #replybutton {
+     width: 70px;
+     height: 75px;
+     font-size: 10px;
+    }
+
+    .text {
+        width: 300px;
+    }
+
+    .midify_reply {
+        width: 45px;
+        margin: 0 auto;
+        height: 35px;
+        margin-left: 15px;
+    }
+
+    .delete_reply {
+        width: 45px;
+        margin: 0 auto;
+        height: 35px;
+        margin-left: 5px;
+    }
+    .check_reply{
+        width: 45px;
+        margin: 0 auto;
+        height: 35px;
+        margin-left: 100px;
+    }
+    
+    .input {
+        width: 250px;
+    }
+    #see-button1 {
+        width: 90px;
+        margin: 0;
+        margin-top: 30px;
+        margin-right: 10px;
+    }
+
+    #see-button3 {
+        width: 90px;
+        margin: 0;
+        margin-top: 30px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    #see-button2 {
+        width: 90px;
+        margin: 0;
+        margin-top: 30px;
+        margin-left: 10px;
+    }
+
+   
+}

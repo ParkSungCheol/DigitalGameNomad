@@ -1,0 +1,171 @@
+.apply {
+    background-color: white; 
+    margin: 0 auto;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.apply-header {
+    font-size: xxx-large;
+}
+
+.apply-text {
+    font-weight: 900;
+    padding-right: 2em;
+    
+}
+
+.apply-name {
+    padding: 1em 0 1em 0;
+}
+
+.apply-box-name {
+    width: 551px;
+    height: 40px;
+    border-color: #e2e2e2;
+    border-radius: 4px;
+    font-family: "NotoSansCJKkrMedium";  
+}
+
+.apply-box-game {
+    width: 551px;
+    height: 40px;
+    border-color: #e2e2e2;
+    border-radius: 4px;
+    font-family: "NotoSansCJKkrMedium";  
+}
+
+.apply-info {
+    padding: 1em;
+    
+}
+
+.apply-box-info {
+    width: 551px;
+    height: 151px;
+    border-color: #e2e2e2;
+    border-radius: 4px;
+    font-family: "NotoSansCJKkrMedium";  
+}
+.apply-url {
+    margin-bottom: 25px;
+}
+
+.apply-box-url {
+    width: 551px;
+    height: 40px;
+    border-color: #e2e2e2;
+    border-radius: 4px;
+}
+
+#apply-urls {
+    margin-right: 13px;
+    width: 550px;
+}
+
+.apply-button {
+    padding-top: 3em;
+    padding-bottom: 4em;
+    
+
+}
+
+.apply-button-box {
+    font-size: 16px;
+    border-radius: 8px;
+    background-color: #161516;
+    color: white;
+    width: 300px;
+    height: 50px;
+    border: 0;
+    outline: 0;
+    font-family: "NotoSansCJKkrMedium"; 
+}
+
+.apply-button-box a {
+    color: white;
+}
+.apply-button-box a:hover {
+    font-weight: 600;
+}
+
+.apply-text-img {
+    padding: 10px;
+    margin-right: 15px;
+    margin-left: 15px;
+    font-family: "NotoSansCJKkrBlack";    
+
+}
+
+.apply-upload-button{
+    margin-left: 190px;
+    margin-right: 5px;
+    border: 0;
+}
+
+.apply-upload-button:hover {
+    font-weight: 600;
+}
+
+.upload-img {
+    margin: 0 ;
+    width: 500px;
+    height: 400px;
+    margin-left: 100px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#file-upload-button {
+    border: 0;
+    background: white;
+    font-family: "NotoSansCJKkrMedium";  
+
+}
+.upload {
+    border: 0;
+    padding: 10px;
+    font-family: "NotoSansCJKkrMedium";  
+}
+
+@media screen and (max-width: 768px) {
+    .apply {
+        width: 300px;
+        
+    }
+
+    .apply-box-name {
+        width: 290px;
+        
+    }
+
+    .apply-box-game {
+        width: 290px;
+    }
+
+    .apply-box-info {
+        width: 290px;
+    }
+
+    .apply-info {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .apply-upload-button {
+        margin: 0;
+        margin-top: 20px;
+    }
+
+    .upload-img {
+        margin: 0 auto;
+        width: 290px;
+        height: 220px;
+      
+
+    }
+
+
+}

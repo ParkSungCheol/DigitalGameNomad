@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Digital Game Nomad Exhibition</title>
+  <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="base.css">
+  <style>
+    #blocker{
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0,0,0,1);
+      color : white;
+    
+    }
+
+    #instructions{
+      width: 100%;
+      height: 100%;
+
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      text-align: center;
+      font-size: 14px;
+      cursor: pointer;
+    }
+
+    #loading-after {
+      display : none;
+    }
+  </style>
+  <script src="./data/cannon.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <!-- <script src="./data/CannonDebugRenderer.js"></script> -->
+</head>
+<body>
+  <div style="display: none; position: absolute; left:50%; top:43%; transform:translate(-50%,-50%); z-index: 100;" id="crosshair">
+    ◾
+    </div>
+  <div id="css"></div>
+  <div id="blocker">
+    <div id="instructions">
+      
+      <p style="font-size:36px" id="loading-after"> PLAY</p>
+      <p style="font-size:36px" id="loading" >Loading..</p>
+      <div id='loadingrate'></div>
+ 
+      
+      <p>
+        
+        Move: WASD<br/>
+        Run : SHIFT<br/>
+        Look: MOUSE<br/>
+        Pause: ESC<br/>
+        Switch Camera : V<br/>
+        Mute : M
+      </p>
+    </div>
+  </div>
+  <c:if></c:if>
+  <script src="./test.js" type="module">
+  </script>
+</body>
+</html>

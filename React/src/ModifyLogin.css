@@ -1,0 +1,38 @@
+.modifylogin {
+    margin: 0 auto;
+    text-align: center;
+    min-height: 100vh;
+}
+
+.modifylogin-logo {
+    margin-top: 100px;
+    height: 50vmin;
+}
+
+.modifylogin-login {
+    width: 300px;
+    height: 40px;
+    border-radius: 8px;
+    border-color: #e2e2e2;
+    margin-bottom: 3px;
+    font-family: "NotoSansCJKkrMedium";  
+}
+
+.modify-button {
+    width: 308px;
+    height: 40px;
+    border-radius: 8px;
+    border:0;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: medium;
+    background-color: #161516;
+    color: white;
+    font-family: "NotoSansCJKkrMedium";  
+    font-size: 20px;
+
+}
+
+.modify-button:hover {
+    font-weight: 600;
+}

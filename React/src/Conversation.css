@@ -1,0 +1,186 @@
+
+.Conversation {
+    background-color: #9bbad8;
+    margin: 0 auto;
+    font-family: "CookieRunBold";      
+}
+
+.produce {
+  margin: 0;
+  padding: 10px;
+}
+
+.fade-in-section {
+    opacity: 0;
+    transform: translateY(20vh);
+    visibility: hidden;
+    transition: opacity 1000ms ease-out, transform 500ms ease-out,
+      visibility 100ms ease-out;
+    will-change: opacity, transform, visibility;
+  }
+  .fade-in-section.is-visible {
+    opacity: 1;
+    transform: none;
+    visibility: visible;
+  }
+
+.box1 {
+    display: inline-block;
+    padding-left: 20em;
+    padding-bottom: 6em;
+    padding-top: 6em;
+}
+
+.box2 {
+    display: inline-block;
+    margin-left: 30%;
+    padding-bottom: 6em;
+    padding-top: 6em;
+}
+  
+.box1 span {
+    background-color: white;
+    display: inline-block;
+    padding: 5px;
+    border-radius: 20px;
+    font-size: xx-large;
+    width: 700px;   
+    padding: 50px;
+    margin: 200px 0;
+    text-align: center;
+}
+
+.box2 span {
+    background-color: #ffec42;
+    display: inline-block;
+    padding: 5px;
+    border-radius: 20px;
+    font-size: xx-large;
+    width: 700px;   
+    padding: 50px;
+    margin: 200px 0;
+    text-align: center;
+}
+
+    
+  .produce {
+    justify-content: center;
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+    font-size: xxx-large;
+    background-color: #381c1c;
+    color: white;
+  }
+
+  .profile{
+    height: 10vmin;
+    padding: 15px;
+  }
+  
+  .talk-button-nav {
+    text-align: center;
+    padding-bottom: 7em;
+    margin: 0;
+}
+
+.talk-button {
+    background-color: #161516;
+    color: #b7b7b7;
+    line-height: 2.5em;
+    border-radius: 10px;
+    margin: 0;
+    font-size: large;
+    padding: 20px 100px;
+    
+}
+
+.talk-button:hover{
+  color: white;
+}
+
+@media screen and (max-width: 768px) {
+.box1 {
+  padding-left: 3px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-left: 5px;
+
+}
+
+
+  .box1 span {
+    width: 170px;
+    font-size: 15px;
+    height: 20px;
+    margin: 0;
+    padding-bottom: 80px;
+    padding-top: 20px;
+
+}
+
+.box2 {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-left: 3px;
+  margin: 100px 0;
+  
+  
+}
+
+  .box2 span {
+    width: 170px;
+    font-size: 15px;
+    height: 20px;
+    margin: 0;
+    margin-left: 20px;
+    padding-top: 30px;
+    padding-bottom: 50px;
+
+}
+
+.talk-button-nav {
+  padding: 0 0 7em 0;
+  margin: 0;
+}
+
+.talk-button {
+  text-align: center;
+  display: none;
+}
+}
+
+@media screen and (min-width:768px) and (max-width:1400px)  {
+  .box1 {
+    padding-left: 3px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 100px;
+  }
+  
+    .box1 span {
+      width: 300px;
+      font-size: 25px;
+      height: 20px;
+      margin: 0;
+      padding-bottom: 140px;
+ 
+  }
+  
+  .box2 {
+    margin: 0;
+    margin-left: 200px;
+    
+  }
+  
+    .box2 span {
+      width: 300px;
+      font-size: 25px;
+      height: 20px;
+      margin-left: 30px;
+      padding-bottom: 90px;
+  
+  }
+  
+
+  }

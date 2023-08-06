@@ -1,0 +1,101 @@
+.see-title {
+    text-align: center;
+    font-size: xxx-large;
+}
+
+.see-title-hr {
+    margin: 0 20% 0 20%;
+}
+
+.see-comment-hr {
+    margin: 0 30% 0 30% ;
+}
+
+.see-main {
+    text-align: center;
+    
+}
+
+.main-contents {
+    text-align: center;
+}
+
+.comment {
+    text-align: justify;
+}
+
+.comment1 {
+    justify-content: center;
+    margin: 2em;
+}
+
+.comment-1 {
+    display: inline-block;
+    float: left;
+    margin-left: 30%;
+    font-weight: 600;
+}
+
+.comment-2 {
+    display: inline-block;
+    margin-left: 3em;
+}
+
+
+.comment-3 {
+    display: inline-block;
+    margin-left: 1em;
+}
+
+.comment-button {
+    background-color: white;
+    outline: 0;
+    border: 0;
+}
+
+.comment-4 {
+    display: inline-block;
+    float: right;
+    margin-right: 30%;
+}
+
+.comment2 {
+    justify-content: center;
+    margin: 2em;
+}
+
+.input-nav {
+    text-align: center;
+}
+
+.see-input {
+    height: 100px;
+    width: 500px;
+    border-radius: 4px;
+    margin: 1em 1em 1em 0;
+}
+
+.see-input-button {
+    height: 100px;
+    width: 130px;
+    border: 0;
+    border-radius: 4px;
+    font-weight: 600;
+    margin: 1em 0 1em 1em;
+}
+
+.button-nav {
+    text-align: center;
+}
+
+.see-button {
+    margin: 2em;
+    background-color: dimgrey;
+    color: white;
+    outline: 0;
+    border: 0;
+    border-radius: 4px;
+    height: 40px;
+    width: 100px;
+    font-size: large;
+}

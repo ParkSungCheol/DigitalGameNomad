@@ -1,0 +1,100 @@
+.terms {
+    background-color: #f7f7f7;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.join-box {
+    margin: 0 auto;
+    background-color: white;
+    text-align: center;
+    width: 800px;
+    padding: 0 2px 0 0;
+    
+
+}
+
+.clearfix {
+    background-color: white;
+    font-weight: 700;
+    text-align: left;
+    padding: 10px;
+    padding-top: 2em;
+    
+}
+
+.terms-nav{
+    text-align: center;
+    font-size: xxx-large;
+    padding-top: 40px;
+}
+
+.terms-box {
+    background-color: #f7f7f7;
+    width: 692px;
+    height: 184px;;
+    border: 0;
+    outline: 0;
+}
+
+.checkBox-check1 {
+    text-align: center;
+}
+
+
+.terms-button {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    padding: 2em;
+}
+
+.terms-button1 {
+    display: inline-block;
+    padding: 0;
+    background-color: #a52a2a;
+    line-height: 2.5em;
+    border-radius: 6px;
+    font-size: large;
+    height: 46.4px;
+    width: 300px;
+    margin-right: 1em;
+    border: 0;
+}
+
+
+
+.terms-button2 {
+    display: inline-block;
+    padding-left: 2em;
+}
+
+.terms-button2-1 {
+    background-color: #5e5e5e;
+    color: white;
+    line-height: 2.5em;
+    border-radius: 6px;
+    margin: 0;
+    font-size: large;
+    padding: 10px 100px;
+}
+
+.checkAllText {
+    display: inline-block;
+    text-align: center;
+}
+.checkAllBtn {
+    width: 20px;
+    height: 20px;
+    margin: 0 0 0 10px;
+}
+
+.activebtn {
+    background-color: #0095f6;
+}
+
+.unactivebtn {
+    background-color: #b2dffc;
+}
+
+

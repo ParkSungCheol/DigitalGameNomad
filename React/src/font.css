@@ -1,0 +1,35 @@
+#naver span {
+    color: white; 
+    font-weight: bold; 
+    padding-left: 2px;
+    padding-right: 2px;
+    background-color: green; 
+    width: 35px; 
+    border: 1px solid black;
+    border-radius: 5px; 
+    text-shadow: -2px 0 #000, 0 2px #000, 2px 0 #000, 0 -2px #000;
+}
+
+#google span {
+    color: white; 
+    font-weight: bold; 
+    padding-left: 2px;
+    padding-right: 2px;
+    background-color: gray;
+    width: 35px; 
+    border: 1px solid black;
+    border-radius: 5px;
+    text-shadow: -2px 0 #000, 0 2px #000, 2px 0 #000, 0 -2px #000;
+}
+
+#kakao span {
+    color: white; 
+    font-weight: bold; 
+    padding-left: 2px;
+    padding-right: 2px;
+    background-color: yellow; 
+    width: 35px; 
+    border: 1px solid black;
+    border-radius: 5px;
+    text-shadow: -2px 0 #000, 0 2px #000, 2px 0 #000, 0 -2px #000;
+}

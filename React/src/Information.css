@@ -1,0 +1,155 @@
+.info {
+    padding-top: 30px;
+    margin: 0;
+    min-height: 100vh;
+}
+.i__header {
+    background-color: #161516;
+}
+.i__h1 {
+    text-align: center;
+    font-size: 35px;
+    background-color: white;
+    padding: 50px 0;
+    margin: 0;
+}
+.i__img {
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    width:400px;
+    height: 400px;
+}
+.i__main {
+    text-align: center;
+}
+.i__p {
+    margin: 0;
+    padding: 10px 0;
+}
+.i__s {
+    font-weight: bold;
+}
+.i__line{
+    margin-top: 70px;
+    border-top: 1px solid rgb(197, 195, 195);
+}
+.i__article {
+    padding-top: 30px;
+    margin: 0;
+}
+.i__a {
+    font-size: 30px;
+    margin: 0;
+    padding: 40px 0;
+    text-align: center
+}
+.i__ul1 {
+    display: flex;
+    justify-content: space-around;
+    place-content: center;
+    margin: 10px 0;
+    padding: 0;
+}
+.i__li1 {
+    padding-right: 20px;
+    width: 300px;
+}
+.i__p1 {
+    border-top: 1px solid black;
+    margin: 0;
+    padding: 10px;
+    font-size: 18px;
+    color: #6f6f6f;
+    font-weight: bold;
+}
+.i__p2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+    padding: 10px 0;
+}
+.i__p3 {
+    margin: 0;
+    padding: 10px 0;
+    padding-bottom: 30px;
+}
+.i__ul2 {
+    display: flex;
+    justify-content: space-around;
+    place-content: center;
+    padding: 0;
+    margin: 10px 0;
+}
+.i__li2 {
+    padding-right: 20px;
+    width: 300px;
+}
+.i__blank {
+    padding: 30px;
+}
+
+@media screen and (max-width: 768px) {
+    .info {
+        width: 400px;
+        margin: 0 auto;
+        text-align: center;
+        align-items: center;
+    }
+
+    .i__h1 {
+        padding-left: 50px;
+        padding-right: 50px;
+        width: 300px;
+        font-size: 22px;
+        margin: 0 auto;
+        display: block;
+        text-align: center;
+    }
+
+    .i__a {
+        font-size: 20px;
+    }
+
+    .i__p {
+        text-align: justify;
+        width: 320px;
+        margin: 0 auto;
+        font-size: 15px;
+    }
+
+    .i__p2 {
+       font-size: 15px;
+       text-align: center;
+    }
+
+    .i__a {
+        width: 300px;
+        margin: 0 auto;
+    }
+
+    .i__ul1 {
+        display: block;
+        text-align: center;
+        margin: auto;
+    }
+
+    .i__li1 {
+        margin: auto;
+    }
+
+    .i__ul2 {
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .i__li2 {
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    .i__li1 {
+        padding: 0;
+    }
+}

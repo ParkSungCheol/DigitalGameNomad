@@ -1,0 +1,273 @@
+.login {
+    background-color: white; 
+    margin: 0 auto;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-family: "NotoSansCJKkrBold"; 
+    min-height: 100vh;
+}
+
+
+.login-header {
+    font-size: xxx-large;
+}
+
+.login-hr1 {
+    width: 80em;
+}
+
+.login-hr2 {
+    width: 80em;
+    margin-bottom: 100px;
+}
+
+.login-id {
+    padding: 0 0 1em 0 ;
+}
+
+.login-id-text {
+    font-size: x-large;
+    padding-right: 3em;
+    font-weight: 900;
+    
+}
+
+.login-id-box {
+    width: 275px;
+    height: 40px;
+    border-color: #e2e2e2;
+    border-radius: 4px; 
+    font-family: "NotoSansCJKkrRegular";  
+}
+
+.login-password {
+    padding: 1em 0 0 0;
+    font-weight: 900;
+}
+
+.login-password-text {
+    font-size: x-large;
+    padding-right: 2em;
+}
+
+.login-password-box {
+    width: 275px;
+    height: 40px;
+    border-color: #e2e2e2;
+    border-radius: 4px;
+    font-family: "NotoSansCJKkrRegular";  
+    
+} 
+
+.login-button-pr {
+    display: inline-block;
+    margin-left: 275px;
+}
+
+.login-button-register {
+    display: inline-block;
+    background-color: white;
+    font-weight: 800;
+    border: 0;
+    outline: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: "NotoSansCJKkrBlack";  
+}
+.login-button-register a:hover {
+    color: #a52a2a;
+}
+
+.login-button-password {
+    display: inline-block;
+    background-color: white;
+    font-weight: 800;
+    border: 0;
+    outline: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: "NotoSansCJKkrBlack";
+}
+
+.login-button-password a:hover {
+    color: #a52a2a;
+}
+
+
+.Login-logo {
+    height: 50vmin;
+}
+.login-button-main {
+    display: flex;
+    margin-bottom: 10px;
+    place-content: center;
+    place-items: center;
+}
+
+.login-button-box {
+    display: inline-block;
+}
+.login-button1 {
+    display: inline-block;
+    align-items: center;
+    background-color: #161516;
+    border-radius: 8px;
+    font-size: 18px;
+    color: white;
+    width: 430px;
+    height: 50px;
+    border: 0;
+    outline: 0;    
+    font-family: "NotoSansCJKkrMedium";
+    margin-bottom: 10px;
+    
+}
+#naverIdLogin {
+    margin-top: 0px;
+}
+
+#naverIdLogin img {
+    width: 130px;
+    height: 50px;
+    margin: 0 auto;
+    border-radius: 8px;
+    margin-right: 10px;
+}
+
+.login-button1:hover {
+    color: white;
+    font-weight: 600;
+    font-family: "NotoSansCJKkrMedium"; 
+    cursor: pointer;
+}
+
+.login-button2:hover {
+    color: white;
+    font-weight: 600;
+    font-family: "NotoSansCJKkrMedium"; 
+    cursor: pointer;
+}
+#naverIdLogin img:hover {
+    color: white;
+    font-weight: 600;
+    font-family: "NotoSansCJKkrMedium"; 
+    cursor: pointer;
+}
+.kakao img {
+    margin-right: 10px;
+    width: 130px;
+    height: 50px;
+    border-radius: 8px;
+}
+.kakao img:hover {
+    color: white;
+    font-weight: 600;
+    font-family: "NotoSansCJKkrMedium"; 
+    cursor: pointer;
+}
+.google {
+    width: 140px;
+    height: 50px;
+}
+.g-wrap {
+    display: inline-block;
+}
+.google .googlelogin {
+    border-radius: 4px;
+    padding: 0;
+    width: 130px;
+    height: 45px;
+    font-weight: bold;
+}
+.google:hover {
+    color: white;
+    font-weight: 600;
+    font-family: "NotoSansCJKkrMedium"; 
+    cursor: pointer;
+}
+
+.kakao-logining {
+    height: 100vw;
+    font-family: "CookieRunBold";   
+}
+
+.Kakao-logoning-img {
+    margin: 0 auto;
+    margin-top: 300px;
+    text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+
+    .login-main {
+        display: block;
+    }
+    .login-id {
+        padding: 0;
+        padding-bottom: 5px;
+        
+    }
+
+    .login-password {
+        padding: 0;
+        padding-top: 5px;
+    }
+
+    .login-id-text {
+        display: none;
+
+    }
+
+    .login-password-text {
+        display: none;
+ }
+    .login-button-register {
+        margin: 0 auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .login-button1{ width: 150px;}
+    .login-button2{ width: 285px;}
+    .login-button-pr {
+        margin: 0 auto;
+        margin-left: 140px;
+    }
+    #naverIdLogin img {
+        width: 90px;
+        height: 50px;
+    }
+    .login-button1 {
+        width: 303px;
+        height: 50px;
+    }
+    .kakao img {
+        width: 90px;
+        height: 50px;
+    }
+    .google .googlelogin {
+        width: 100px;
+        height: 45px;
+    }
+    .google {
+        width: 100px;
+        height: 45px;
+    }
+
+    .kakao-logining {
+        margin: 0 auto;
+        width: 300px;
+        text-align: center;
+    }
+
+    .Kakao-logoning-img {
+        width: 300px;
+    }
+    .KakaoLogoning {
+        margin: 0 auto;
+        width: 300px;
+    }
+}
+
+

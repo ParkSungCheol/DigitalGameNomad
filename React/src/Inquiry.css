@@ -1,0 +1,82 @@
+.inquiry {
+    background-color: white; 
+    margin: 0 auto;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.inquiry-header {
+    font-size: xxx-large;
+}
+
+.inquiry-text {
+    font-weight: 900;
+    padding-right: 2em;
+}
+
+
+.inquiry-title {
+    padding: 1em 0 1em 0;
+}
+
+.inquiry-box-title {
+    width: 551px;
+    height: 40px;
+    border-color: #e2e2e2;
+    border-radius: 4px;
+    font-family: "NotoSansCJKkrRegular";   
+}
+
+.inquiry-info {
+    padding: 1em;
+    
+}
+
+.inquiry-box-info {
+    width: 551px;
+    height: 300px;
+    border-color: #e2e2e2;
+    border-radius: 4px;
+    font-family: "NotoSansCJKkrRegular";   
+}
+
+.inquiry-button {
+    padding-top: 3em;
+    padding-bottom: 4em;
+
+}
+
+.inquiry-button-box {
+    font-size: 16px;
+    border-radius: 8px;
+    background-color: #161516;
+    color: white;
+    width: 300px;
+    height: 40px;
+    border: 0;
+    outline: 0;
+    font-family: "NotoSansCJKkrMedium";   
+}
+
+.inquiry-button-box:hover {
+    font-weight: 600;
+
+}
+
+@media screen and (max-width: 768px) {
+    .inquiry-box-title {
+        width: 300px;
+    }
+
+    .inquiry-info {
+        padding: 0;
+        margin-bottom: 25px;
+    }
+
+    .inquiry-box-info {
+        width: 300px;
+        height: 200px;
+    }
+}
