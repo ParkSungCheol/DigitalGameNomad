@@ -19,26 +19,15 @@
   + 물질의 질량을 부여해 물리적 충돌로 밀려나도록 설정하여 벽을 뚫지못하도록 구현
 > **[ REACT ]**
 + **[ React-Redux ]** 
-  + 순수 React의 prop방식은 컴포넌트 간의 데이터 동기화를 복잡하게 만드는 단점이 있어서 Redux를 이용해 컴포넌트 간의 공유 저장소를 활
-> **[ SpringBoot ]**
-+ **[ 보안 ]** 
-  + 비밀번호 암호화시 BCryptPasswordEncoder를 사용하여 랜덤한 salt값을 활용
-> **[ Jenkins ]**
-+ **[ CI/CD ]** 
-  + gitHub 커밋 => Webhooks를 이용해 Jenkins로 보냄 => Jenkins에서 빌드 전 JUnit5 단위테스트 / 통합테스트 실행 자동화
-  + 빌드 후 AWS 인스턴스에 접근해서 배포 자동화
-+ **[ Build Periodically ]** 
-  + 매일 00:00 모든 배치서버 STOP <br/>=> 00:10 Logstash, ES 메모리 부족으로 인한 성능저하 방지를 위해 재시작 <br/>=> 01:00 모든 배치서버 자동시작
-+ **[ 복호화 ]** 
-  + git-secret을 이용해 GPG 알고리즘(RSA 기반)으로 암호화된 파일을 PrivateKey를 credential로 저장 후 application.yml을 복호화
+  + 순수 React의 prop방식은 컴포넌트 간의 데이터 동기화를 복잡하게 만드는 단점이 있어서 Redux를 이용해 컴포넌트 간의 공유 저장소 구축
 > **[ 보안 ]**
-+ **[ 스프링 ]** 
-  + 보안측면에서 유리한 세션 방식으로 로그인 정보 저장
-  + 백엔드 서버에 요청 시 인터셉터 이용해서 세션을 통한 로그인 검증
-  + 비밀번호 저장 시 랜덤한 4자리의 Salt 값 생성 후 (비밀번호 + Salt)를 단방향암호화 진행
-  + SQL Injection 방지를 위해 myBatis #{} 바인딩 방식 사용
-+ **[ AWS ]**
-  + 보안그룹과 OpenVPN을 활용하여 허용되지 않은 IP접근 차단
++ **[ Spring ]** 
+  + 비밀번호 암호화시 BCryptPasswordEncoder를 사용하여 랜덤한 salt값을 활용
+> **[ Cloud Server ]**
++ **[ Naver ObjectStorage ]** 
+  + 이미지 서버로 활용
++ **[ NaverCloud MicroServer ]** 
+  + DB서버로 활용
 ------------
 ### 프로젝트는 어떤 서비스를 제공하나요?
 + **비대면 전시관** 서비스 제공
