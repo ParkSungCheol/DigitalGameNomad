@@ -67,10 +67,10 @@
   + **충돌시스템을 구현**하여 미궁게임 등 직접 참여가능
 ------------
 ### 프로젝트 설치 및 실행방법은 어떻게 되나요?
-> Exhibition : VS LiveServer를 이용하여 5500번 포트로 실행
-> ExhibitionGame : VS LiveServer를 이용하여 5501번 포트로 실행
-> React : npm start 명령어로 3000번 포트로 실행
-> Spring : SpringBoot이므로 내장 톰캣을 이용해 8088번 포트로 실행(DB연결이 필요할 시 application.yml에 DB연결정보 추가)
++ Exhibition : VS LiveServer를 이용하여 5500번 포트로 실행
++ ExhibitionGame : VS LiveServer를 이용하여 5501번 포트로 실행
++ React : npm start 명령어로 3000번 포트로 실행
++ Spring : SpringBoot이므로 내장 톰캣을 이용해 8088번 포트로 실행(DB연결이 필요할 시 application.yml에 DB연결정보 추가)
 ------------
 ### 프로젝트 스크린샷을 첨부해주세요.
 + 블로그
