@@ -20,6 +20,8 @@
 > **[ REACT ]**
 + **[ React-Redux ]** 
   + React의 prop방식은 컴포넌트 간의 데이터 동기화를 복잡하게 만드는 단점이 있어서 Redux를 이용해 컴포넌트 간의 공유 저장소 구축
++ **[ 소셜로그인 ]**
+  + NAVER, KAKAO, GOOGLE 소셜로그인 구현
 > **[ 보안 ]**
 + **[ Spring ]** 
   + 비밀번호 암호화시 BCryptPasswordEncoder를 사용하여 랜덤한 salt값을 활용
